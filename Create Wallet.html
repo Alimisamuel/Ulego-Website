@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Ulego</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
+
+
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/navbars-offcanvas/">
+    
+
+    
+<!-- #0a535a -->
+    
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="index-style.css">
+
+    <style>
+        body{
+            position: fixed !important;
+        }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+         
+        }
+          .right-column{
+              visibility: visible !important;
+            
+            }
+            .wallet-container{
+        margin-top: -50px !important;
+    }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    .one{
+        background: url('images/couro.png');
+        background-size: cover;
+        border: none;
+        outline: none;
+    }
+    .two{
+        background: url('images/crls2.png');
+        background-size: cover;
+    }
+    .right-column{
+        visibility: hidden;
+    }
+    .wallet-container{
+        margin-top: 100px;
+    }
+    .col-md-6 img{
+        margin-top:-20px !important;
+        margin-left: 70px !important;
+
+    }
+  
+
+    </style>
+
+    
+    <!-- Custom styles for nav bar -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/signin.css" rel="stylesheet">
+  </head>
+  <body>
+    <!---Nav Bar-->
+<main>
+ 
+  
+  
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg p-3 mb-5 bg-body rounded navbar fixed-top" aria-label="Offcanvas navbar large">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="images/header.png" width="120px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" style="background: #0a535a;">
+                <span class="navbar-toggler-icon" ></span>
+        </button>
+    <div class="offcanvas offcanvas-end text-white bg-light" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+        <div class="offcanvas-header">
+             <h5 class="offcanvas-title" id="offcanvasNavbar2Label" style="color: #0a535a; font-weight: bolder;">Ulego</h5>
+             <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+     <div class="offcanvas-body">
+         <ul class="navbar-nav  flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarLgDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Personal
+              </a>
+                 <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarLgDropdown">
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-mobile"></i>Airtime / Data Recharge</a></li>
+                     <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i>Fund Transfer</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-coins"></i>Bill Payment</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-coins"></i>Savings</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-hand-holding-dollar"></i>Investment</a></li>
+                <!--li-->
+              </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Create.html">Create Account</a>
+                    </li>
+                 </li>
+                <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarLgDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Help
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarLgDropdown">
+                <li><a class="dropdown-item" href="#">Get Help</a></li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                <li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3 mt-lg-0" role="search">
+           <a href="Create.html"> <button type="button" class="btn btn-outline-light me-2 btn-login">Sign in</button></a>
+            <button class="btn btn-outline-success btn-get download-btn" type="submit">Get Ulego</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  
+ 
+</main><!---Nav Bar-->
+
+<div class="container create-container ">
+
+    <div class="row">
+        <div class="col-md-6 shadow p-3 mb-5 bg-body rounded wallet-container">
+             <div class="text-center">
+                <main class="form-signin w-100 m-auto">
+                    <form>
+                    <!-- <img class="mb-4" src="/images/footer.png" alt="" width="50%" > -->
+                         <h1 class="h4 mb-3 fw-normal">Create Wallet</h1>
+
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                            <label for="floatingInput">First Name</label>
+                            </div>
+                            <br>
+                            <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingPassword" placeholder="Password" required>
+                            <label for="floatingPassword">Second Name</label>
+                            </div>
+                            <br>
+                            <div class="form-floating  ">
+                            <input type="text" class="form-control" id="floatingPassword" placeholder="Password" required>
+                            <label for="floatingPassword">Other Name</label>
+                        </div>
+                        <br>
+                        <div class="form-floating ">
+       
+                            <label for="validationDefaultUsername" class="form-label">Username</label>
+                            <div class="input-group">
+                            <span class="input-group-text" id="inputGroupPrepend2">+234</span>
+                            <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+                     </div>
+                 <br>
+    
+
+                        <div class="checkbox mb-3">
+                            <label style="font-weight: bolder !important;">
+                                <input type="checkbox" value="remember-me" > Remember me
+                            </label>
+                        </div>
+                            <button class="w-100 btn btn-lg btn-primary " type="submit" id="myBtn" style="font-size: 13px; "onclick="window.location.href='otp.html'">Verify phone number</button>
+                            <!-- <p class="mt-5 mb-3 text-muted">&copy; Ulego 2022</p> -->
+
+                    </form>
+
+                </main><!--Main-->
+            </div><!-- Sign In -->
+     </div>
+    <div class="col-md-6 right-column">
+      
+                            <img src="images/wallet.png" width="120%">
+
+    </div><!-- Login Container(.col-md-6 (right)) -->
+
+
+</div><!--row-->
+</div><!-- container for the whole body except the top nav -->
+
+</body>
+ 
+  
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</html>

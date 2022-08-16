@@ -1,0 +1,435 @@
+body{
+    font-family: poppins !important;
+    /* background: black !important;
+    color: white !important; */
+    background: white !important;
+
+    
+    
+}
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+   
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+
+/* navbar */
+
+
+.navbar a{
+    color:#0a535a !important;
+
+}
+.navbar i{
+    padding-right: 10px !important;
+}
+.nav-link:hover{
+color: #09474d !important;
+font-weight: bolder !important;
+}
+
+/* get ulego button on nav */
+.download-btn{
+    background: #0a535a ;
+    border: none;
+    color: white !important;
+}
+.btn-get{
+    background: #09474d  !important;
+    color: white !important;
+    border: none !important;
+}
+.btn-get a{
+    background: #09474d  !important;
+    color: white !important;
+    border: none !important;
+}
+.btn-get a:hover{
+    background: #0a535a !important;
+    color: white !important;
+    border: none !important;
+}
+
+
+
+
+
+
+/* slideshow */
+
+.img-mobile{
+  visibility: hidden;
+}
+.img-mobile2{
+  visibility: hidden;
+}
+
+.crsl{
+    
+    margin-top: 50px;
+    padding: 0%;
+    
+}
+
+#myCarousel:focus {
+    outline: none !important; 
+}
+.carousel h1{
+color: #0a535a !important;
+font-size: 60px !important;
+font-weight: bolder !important;
+}
+.btn-lg{
+    background: #0a535a !important;
+    border: none !important;
+
+}
+
+.btn-login{
+    color:black !important;
+}
+
+.crsl-heading{
+    margin-top: 50px !important;
+    font-weight: bolder !important;
+    line-height:60px !important;
+    font-size:60px !important;
+    color: #0a535a !important;
+    
+
+}   
+.carousel-inner > div{
+    height: 600px !important;
+  
+    border: none !important;
+}
+
+.img-thumbnail{
+    height: 100%;
+    border: none;
+    border-radius:none !important;
+}
+.crsl-btn{
+    margin-top: 50px;
+    padding:10px 20px !important;
+    font-weight: bolder !important;
+}
+.crsl-btn-download:hover{
+font-weight: bolder !important;
+background: #09474d  !important;
+}
+.container{
+    width: 80% !important;
+}
+
+
+
+
+
+/* featured boxes */
+.feature h2{
+    font-size:20px !important;
+    font-weight:bold !important;
+}
+.featured-img{
+    margin-left: 50px;
+}
+.carousel-responsive {
+color: #fff !important;
+}
+.px-4{
+color: #fff !important;
+}
+.px-4:hover{
+color: white !important;
+background: #09474d  !important;
+}
+
+
+
+/* heroes */
+.second-heroes{
+    color: #09474d;
+    font-size: 16px;
+}
+
+
+
+/* footer */
+.footer{
+   
+    color: white !important;
+  
+  
+}
+.footer a{
+    color: white !important;
+}
+
+footer i{
+    font-size:20px;
+    border: 1px solid white;
+    padding:10px;
+    width:40px;
+    color:white;
+    height:40px;
+    border-radius:50%;
+    text-align:center;
+}
+.btn-subscribe{
+    background: #0a535a !important;
+    border: none !important;
+}
+/* .barcode{
+  background: #02ecb7;
+  width: 110px;
+  text-align: center;
+} */
+
+
+/* style for create Account/Sign up Page */
+
+.text-center form h1{
+font-size:20px !important;
+font-weight: bolder !important;
+}
+.create-container{
+    margin-top:150px !important;
+}
+.wallet-container{
+    background: url('images/footer-rest.png');
+    background-size: cover;
+}
+
+.footer-other{
+    background: #09474d !important;
+   height: 500px !important;
+   position: relative;
+   top: 50%;
+}
+.form-control:focus{
+box-shadow:2px 2px 0px 0px #09474d !important;;
+border: 1px solid #09474d !important;
+}
+
+
+
+
+
+
+/* For Text Animation */
+
+
+
+
+.anime{
+
+}
+
+.anime h1 {
+    /* text-align: center; */
+    text-transform: uppercase;
+   
+    font-size: 4.0rem !important;
+    font-weight: bolder !important;
+    letter-spacing: 1px;
+    color: #09474d !important;
+  }
+  .anime p{
+font-size: 1.1rem !important;
+  }
+ 
+  .anime h1 span {
+    display: inline-block;
+    animation: slideLeft 1.5s forwards;
+    opacity: 0;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  
+  @keyframes slideLeft {
+    from {
+      opacity: 0;
+      transform: translateX(200px);
+    } 
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+
+
+  .anime-p p {
+    /* font-family: "Montserrat Medium"; */
+    max-width: 40ch;
+    text-align: center;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  }
+  @keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+ .anime-p span {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+  }
+  
+  .anime-p span:nth-child(1) {
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .anime-p span:nth-child(2) {
+    animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .anime-p span:nth-child(3) {
+    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .anime-p span:nth-child(4) {
+    animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .anime-p span:nth-child(5) {
+    animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .anime-p span:nth-child(6) {
+    animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .anime-p span:nth-child(7) {
+    animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .anime-p span:nth-child(8) {
+    animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .anime-p span:nth-child(9) {
+    animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  .anime-p span:nth-child(10) {
+    animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+ 
+  
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+
+
+
+
+
+  /* for Mobile */
+
+  @media (max-width: 480px) {
+    .no-margin{
+        margin-left: 0px !important;
+    }
+
+.anime h1 {
+
+  font-size: 55px !important;
+  
+ 
+}
+.animation{
+  position: relative;
+  top: -250px !important;
+}
+.p-one{
+  position: relative;
+  top: -230px !important;
+}
+.one{
+   visibility: hidden;
+
+ 
+}
+.two{
+ visibility: hidden;
+
+ 
+}
+.img-mobile{
+  visibility: visible;
+  position: relative;
+  top: -100%;
+ 
+}
+
+.img-mobile2{
+  visibility: visible;
+  position: relative;
+  top: -100%;
+
+ 
+}
+.download-btn-crsl{
+  position: relative; 
+  top: -230px !important;
+}
+} 
+  
+  
+  
+
+  
