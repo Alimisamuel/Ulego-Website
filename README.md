@@ -11,7 +11,7 @@ download Raleway font
 ```
 open folder on vscode and Go Live
 
-https://ulego.ng/
+[Click the link to preview the live page](https://ulego.ng/)
 ```
 
 
